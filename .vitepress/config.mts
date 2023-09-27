@@ -13,7 +13,8 @@ export default defineConfig({
       {
         rel: "icon",
         // href: "https://raw.githubusercontent.com/MrZhuA00/image-repo/main/facial-sutra/facial-sutra_32.ico",
-        href: "/facialsutra-logo.svg",
+        // href: https://raw.githubusercontent.com/MrZhuA00/image-repo/d7801a8f660736e0cd6608daf85b41260599db4c/facial-sutra/facialsutra-logo.svg
+        href: "/facial-sutra/facialsutra-logo.svg",
       },
     ],
   ],
