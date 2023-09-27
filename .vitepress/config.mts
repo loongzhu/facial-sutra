@@ -22,6 +22,7 @@ export default defineConfig({
           { text: "Runtime API Examples", link: "/api-examples" },
           { text: "Html", link: "/Html/" },
           { text: "JavaScript", link: "/JavaScript/" },
+          { text: "Node", link: "/Node/" },
         ],
       },
     ],
