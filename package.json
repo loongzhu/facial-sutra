@@ -1,0 +1,24 @@
+{
+  "name": "facial-sutra",
+  "version": "0.0.1",
+  "description": "Some interview questions I collected",
+  "main": "index.md",
+  "scripts": {
+    "docs:dev": "vitepress dev",
+    "docs:build": "vitepress build",
+    "docs:preview": "vitepress preview"
+  },
+  "devDependencies": {
+    "vitepress": "1.0.0-rc.20"
+  },
+  "author": "zhuzhenquan",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrZhuA00/facial-sutra.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MrZhuA00/facial-sutra/issues"
+  },
+  "homepage": "https://github.com/MrZhuA00/facial-sutra#readme"
+}
