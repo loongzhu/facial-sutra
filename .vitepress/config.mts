@@ -45,7 +45,7 @@ export default defineConfig({
 function sidebarContent(): DefaultTheme.SidebarItem[] {
   return [
     {
-      text: "category",
+      text: "Category",
       items: [
         { text: "Markdown Examples", link: "markdown-examples" },
         { text: "API Examples", link: "api-examples" },
