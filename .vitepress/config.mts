@@ -4,7 +4,7 @@ import { defineConfig, type DefaultTheme } from "vitepress";
 export default defineConfig({
   title: "Facial Sutra",
   description: "A VitePress Site",
-  outDir: "./docs",
+  // outDir: "./docs",
   base: "/facial-sutra/",
 
   head: [
