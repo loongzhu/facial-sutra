@@ -51,6 +51,7 @@ function sidebarContent(): DefaultTheme.SidebarItem[] {
         { text: "Html", link: "Html" },
         { text: "JavaScript", link: "JavaScript" },
         { text: "Node", link: "Node" },
+        { text: "Git", link: "Git" },
         { text: "Html", link: "/Html/" },
         { text: "JavaScript", link: "/JavaScript/" },
         { text: "Node", link: "/Node/" },
