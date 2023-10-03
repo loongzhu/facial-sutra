@@ -8,7 +8,11 @@
     "docs:build": "vitepress build",
     "docs:preview": "vitepress preview"
   },
+  "dependencies": {
+    "vue": "^3.3.4"
+  },
   "devDependencies": {
+    "sass": "^1.68.0",
     "vitepress": "1.0.0-rc.20"
   },
   "author": "zhuzhenquan",
