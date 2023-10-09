@@ -50,7 +50,11 @@ function sidebarContent(): DefaultTheme.SidebarItem[] {
         { text: "API Examples", link: "api-examples" },
         { text: "Html", link: "Html" },
         { text: "JavaScript", link: "JavaScript" },
-        { text: "Node", link: "Node" },
+        {
+          text: "Node.js",
+          base: "/category/nodejs/",
+          items: nodejsSidebar(),
+        },
         { text: "Git", link: "Git" },
         { text: "test", link: "test" },
         {
@@ -81,5 +85,12 @@ function sidebarExample() {
   return [
     { text: "examples1", link: "1" },
     { text: "examples2", link: "2" },
+  ];
+}
+
+function nodejsSidebar() {
+  return [
+    { text: "Buffer", link: "Buffer" },
+    { text: "event_loop", link: "event_loop" },
   ];
 }
