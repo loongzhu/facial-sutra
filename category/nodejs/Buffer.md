@@ -2,7 +2,7 @@
 outline: deep
 ---
 
-# 面试官：说说对 `Buffer` 的理解？应用场景？
+# 对 `Buffer` 的理解？应用场景？
 
 ![buffer-about](https://github.com/MrZhuA00/image-repo/blob/main/facial-sutra/nodejs/buffer-about.png?raw=true)
 
@@ -130,6 +130,7 @@ inputStream.pipe(outputStream); // 管道读写
 
 ## 4.参考
 
-- https://nodejs.org/api/buffer.html
+- [Node.js Buffer](https://nodejs.org/api/buffer.html)
+- [zlib.js](https://nodejs.org/api/zlib.html)
+- https://vue3js.cn/interview/NodeJS/Buffer.html
 - https://segmentfault.com/a/1190000019894714
-- https://nodejs.org/api/zlib.html

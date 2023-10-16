@@ -48,6 +48,7 @@ function sidebarContent(): DefaultTheme.SidebarItem[] {
       items: [
         { text: "Markdown Examples", link: "markdown-examples" },
         { text: "API Examples", link: "api-examples" },
+        { text: "CSS", link: "CSS" },
         { text: "Html", link: "Html" },
         { text: "JavaScript", link: "JavaScript" },
         {
@@ -92,5 +93,7 @@ function nodejsSidebar() {
   return [
     { text: "Buffer", link: "Buffer" },
     { text: "event_loop", link: "event_loop" },
+    { text: "fs", link: "fs" },
+    { text: "Stream", link: "Stream" },
   ];
 }
