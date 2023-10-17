@@ -1,5 +1,6 @@
 ---
 outline: deep
+pageClass: test-page
 ---
 
 # About test
