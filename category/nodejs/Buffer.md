@@ -1,5 +1,6 @@
 ---
 outline: deep
+title: Node.js Buffer
 ---
 
 # 对 `Buffer` 的理解？应用场景？
