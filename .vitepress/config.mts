@@ -107,7 +107,9 @@ function nodejsSidebar(): DefaultTheme.SidebarItem[] {
   return [
     { text: "Buffer", link: "Buffer" },
     { text: "event_loop", link: "event_loop" },
+    { text: "EventEmitter", link: "EventEmitter" },
     { text: "fs", link: "fs" },
     { text: "Stream", link: "Stream" },
+    { text: "file_upload", link: "file_upload" },
   ];
 }
