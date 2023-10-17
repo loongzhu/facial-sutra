@@ -2,9 +2,18 @@ import { defineConfig, type DefaultTheme } from "vitepress";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  lang: "en-US",
   title: "Facial Sutra",
-  description: "A VitePress Site",
+  description: "Complete collection of interview questions",
+
   base: "/facial-sutra/",
+
+  lastUpdated: true,
+  cleanUrls: true,
+
+  markdown: {
+    math: true,
+  },
 
   head: [
     [
@@ -33,6 +42,11 @@ export default defineConfig({
 
     sidebar: {
       "/category/": { base: "/category/", items: sidebarContent() },
+    },
+
+    editLink: {
+      pattern: "https://github.com/MrZhuA00/facial-sutra/blob/main/:path",
+      text: "Edit this page on GitHub",
     },
 
     socialLinks: [
@@ -82,14 +96,14 @@ function sidebarContent(): DefaultTheme.SidebarItem[] {
   ];
 }
 
-function sidebarExample() {
+function sidebarExample(): DefaultTheme.SidebarItem[] {
   return [
     { text: "examples1", link: "1" },
     { text: "examples2", link: "2" },
   ];
 }
 
-function nodejsSidebar() {
+function nodejsSidebar(): DefaultTheme.SidebarItem[] {
   return [
     { text: "Buffer", link: "Buffer" },
     { text: "event_loop", link: "event_loop" },
