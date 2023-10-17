@@ -1,3 +1,9 @@
 .test-page {
   background-color: red;
 }
+
+/* If there is an image element within the p tag, set its content to be centered. */
+.container .content .main p:has(img) {
+  display: flex;
+  justify-content: center;
+}
