@@ -60,6 +60,8 @@ myEmitter.removeListener("event", callback);
 
 ## 3. `EventEmitter` 的实现
 
+### 3.1 构造函数
+
 通过上面的方法了解， `EventEmitter` 是一个构造函数，内部存在一个包含所有时间的对象
 
 ```js
@@ -70,6 +72,8 @@ class EventEmitter {
 }
 ```
 
+### 3.2 存放事件
+
 其中 `events` 存放的监听事件的函数的结构如下：
 
 ```js
@@ -79,6 +83,8 @@ class EventEmitter {
   ...
 }
 ```
+
+### 3.3 实现 `emit` 方法
 
 然后开始一步步实现 `EventEmitter` 的方法
 首先是 `emit` ，第一个参数为事件的类型，第二个参数开始为触发事件函数的参数，实现如下：
@@ -92,6 +98,8 @@ emit(type, ...args) {
   }
 }
 ```
+
+### 3.4 实现 `on` 、 `addListener` 、 `prependListener` 方法
 
 当实现了 `emit` 方法之后，然后实现 `on` 、 `addListener` 、 `prependListener` 这三个实例方法，都是添加事件监听器，只是添加的位置不同，实现如下：
 
@@ -115,6 +123,8 @@ prependListener(type, listener) {
 }
 ```
 
+### 3.5 实现 `removeListener` 、 `off` 、 `removeAllListeners` 方法
+
 紧接着就是实现 `removeListener` 、 `off` 、 `removeAllListeners` 这三个实例方法，都是移除事件监听器，实现如下：
 
 ```js
@@ -134,6 +144,8 @@ removeAllListeners(type) {
   }
 }
 ```
+
+### 3.6 实现 `once` 方法
 
 最后实现 `once` 方法，再传入事件监听处理函数的时候进行封装，利用闭包的特性维护当前状态，通过 `fired` 属性值判断事件函数是否执行过：
 
@@ -166,6 +178,8 @@ _onceWrapper(...args) {
   }
 }
 ```
+
+### 3.7 完整代码
 
 完整代码如下：
 
