@@ -3,9 +3,9 @@
 layout: home
 
 hero:
-  name: "Facial Sutra"
-  text: "About interview"
-  tagline: Just some interview experiences I collected
+  name: Facial Sutra
+  text: Experience & Knowledge
+  tagline: Not just some interview questions and common knowledge I collected
   actions:
     - theme: brand
       text: Markdown Examples

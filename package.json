@@ -1,8 +1,16 @@
 {
   "name": "facial-sutra",
   "version": "0.0.1",
-  "description": "Some interview questions I collected",
+  "description": "Not just some interview questions and common knowledge I collected",
   "main": "index.md",
+  "keywords": [
+    "experience",
+    "interview",
+    "knowledge",
+    "frontend",
+    "backend",
+    "fullstack"
+  ],
   "scripts": {
     "docs:dev": "vitepress dev",
     "docs:build": "vitepress build",

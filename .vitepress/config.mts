@@ -4,7 +4,8 @@ import { defineConfig, type DefaultTheme } from "vitepress";
 export default defineConfig({
   lang: "en-US",
   title: "Facial Sutra",
-  description: "Complete collection of interview questions",
+  description:
+    "Not just some interview questions and common knowledge I collected",
 
   base: "/facial-sutra/",
 
