@@ -7,3 +7,12 @@
   display: flex;
   justify-content: center;
 }
+
+.content-body {
+  background: radial-gradient(
+    transparent,
+    var(--vp-nav-bg-color) 5px
+  ) !important;
+  background-size: 5px 5px !important;
+  backdrop-filter: saturate(50%) blur(4px) !important;
+}
