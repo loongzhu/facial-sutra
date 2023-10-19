@@ -151,7 +151,7 @@ readStream.on("end", (chunk) => {
 
 ## 参考
 
-- [Node.js Stream 流](https://www.runoob.com/nodejs/nodejs-stream.html)
+- [Node.js Stream 流](https://nodejs.org/api/stream.html)
 - [webpack](https://webpack.js.org/)
 - [gulp.js](https://gulpjs.com/)
 - https://vue3js.cn/interview/NodeJS/Stream.html
