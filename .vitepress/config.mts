@@ -4,13 +4,14 @@ import { defineConfig, type DefaultTheme } from "vitepress";
 export default defineConfig({
   lang: "en-US",
   title: "Facial Sutra",
+  titleTemplate: true,
   description:
     "Not just some interview questions and common knowledge I collected",
 
   base: "/facial-sutra/",
-
-  lastUpdated: true,
   cleanUrls: true,
+  srcExclude: ["**/README.md"],
+  lastUpdated: true,
 
   markdown: {
     math: true,
@@ -110,6 +111,7 @@ function nodejsSidebar(): DefaultTheme.SidebarItem[] {
     { text: "event_loop", link: "event_loop" },
     { text: "EventEmitter", link: "EventEmitter" },
     { text: "fs", link: "fs" },
+    { text: "global", link: "global" },
     { text: "Stream", link: "Stream" },
     { text: "file_upload", link: "file_upload" },
   ];
