@@ -16,3 +16,30 @@
   background-size: 5px 5px !important;
   backdrop-filter: saturate(50%) blur(4px) !important;
 }
+
+/* https://github.com/lxgw/LxgwWenKai */
+
+@font-face {
+  font-family: "lxgw wenkai lite";
+  src: url(./fonts/LXGWWenKai-Regular.ttf);
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "lxgw wenkai lite";
+  src: url(./fonts/LXGWWenKai-Light.ttf);
+  font-weight: 300;
+  font-style: oblique;
+}
+
+@font-face {
+  font-family: "lxgw wenkai lite";
+  src: url(./fonts/LXGWWenKai-Bold.ttf);
+  font-weight: bold;
+  font-style: normal;
+}
+
+body {
+  font-family: "lxgw wenkai lite";
+}
