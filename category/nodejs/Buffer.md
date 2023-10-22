@@ -28,6 +28,7 @@ const buffer = Buffer.from("hello world");
 ```
 
 其存储过程如下图所示：
+
 ![buffer-graph](https://github.com/MrZhuA00/image-repo/blob/main/facial-sutra/nodejs/buffer-graph.png?raw=true)
 
 ## 2. `Buffer` 的使用方法

@@ -109,12 +109,13 @@ function nodejsSidebar(): DefaultTheme.SidebarItem[] {
   return [
     { text: "Node.js", link: "nodejs" },
     { text: "Buffer", link: "Buffer" },
-    { text: "event_loop", link: "event_loop" },
+    { text: "event loop", link: "event_loop" },
     { text: "EventEmitter", link: "EventEmitter" },
     { text: "fs", link: "fs" },
     { text: "global", link: "global" },
     { text: "Stream", link: "Stream" },
-    { text: "require_order", link: "require_order" },
-    { text: "file_upload", link: "file_upload" },
+    { text: "require order", link: "require_order" },
+    { text: "file upload", link: "file_upload" },
+    { text: "JSON Web Token", link: "jwt" },
   ];
 }
