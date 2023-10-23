@@ -68,6 +68,11 @@ function sidebarContent(): DefaultTheme.SidebarItem[] {
         { text: "Html", link: "Html" },
         { text: "JavaScript", link: "JavaScript" },
         {
+          text: "CSS",
+          base: "/category/css/",
+          items: cssSidebar(),
+        },
+        {
           text: "Node.js",
           base: "/category/nodejs/",
           items: nodejsSidebar(),
@@ -121,4 +126,8 @@ function nodejsSidebar(): DefaultTheme.SidebarItem[] {
     { text: "JSON Web Token", link: "jwt" },
     { text: "Performance optimization", link: "performance" },
   ];
+}
+
+function cssSidebar(): DefaultTheme.SidebarItem[] {
+  return [{ text: "Box model", link: "box_model" }];
 }
