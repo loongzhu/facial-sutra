@@ -118,5 +118,6 @@ function nodejsSidebar(): DefaultTheme.SidebarItem[] {
     { text: "require order", link: "require_order" },
     { text: "file upload", link: "file_upload" },
     { text: "JSON Web Token", link: "jwt" },
+    { text: "Performance optimization", link: "performance" },
   ];
 }
