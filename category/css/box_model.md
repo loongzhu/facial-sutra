@@ -113,6 +113,12 @@ box-sizing： content-box | border-box | inherit
   Box Model
 </div>
 
+## 参考
+
+- [CSS Box Model](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Introduction_to_the_CSS_box_model)
+- [box-sizing](https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing)
+- https://vue3js.cn/interview/css/box.html
+
 <style lang="scss">
   .box {
     width: 200px;

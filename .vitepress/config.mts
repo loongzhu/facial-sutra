@@ -129,5 +129,8 @@ function nodejsSidebar(): DefaultTheme.SidebarItem[] {
 }
 
 function cssSidebar(): DefaultTheme.SidebarItem[] {
-  return [{ text: "Box model", link: "box_model" }];
+  return [
+    { text: "Box model", link: "box_model" },
+    { text: "BFC", link: "BFC" },
+  ];
 }
