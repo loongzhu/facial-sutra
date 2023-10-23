@@ -113,6 +113,7 @@ function nodejsSidebar(): DefaultTheme.SidebarItem[] {
     { text: "EventEmitter", link: "EventEmitter" },
     { text: "fs", link: "fs" },
     { text: "global", link: "global" },
+    { text: "process", link: "process" },
     { text: "Stream", link: "Stream" },
     { text: "Middleware", link: "Middleware" },
     { text: "require order", link: "require_order" },
