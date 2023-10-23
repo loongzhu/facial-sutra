@@ -114,6 +114,7 @@ function nodejsSidebar(): DefaultTheme.SidebarItem[] {
     { text: "fs", link: "fs" },
     { text: "global", link: "global" },
     { text: "Stream", link: "Stream" },
+    { text: "Middleware", link: "Middleware" },
     { text: "require order", link: "require_order" },
     { text: "file upload", link: "file_upload" },
     { text: "JSON Web Token", link: "jwt" },
