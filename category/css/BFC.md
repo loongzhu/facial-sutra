@@ -63,7 +63,7 @@ titleTemplate: CSS
 </style>
 
 <body>
-  <div class="BFC-box">
+  <div class="box">
     <div class="example">Haha</div>
     <div class="example">Hehe</div>
   </div>
@@ -72,9 +72,9 @@ titleTemplate: CSS
 
 页面显示如下：
 
-<div class="BFC-box">
-  <div class="example">Haha</div>
-  <div class="example">Hehe</div>
+<div :class="$style.box">
+  <div :class="$style.example">Haha</div>
+  <div :class="$style.example">Hehe</div>
 </div>
 
 两个 `div` 元素之间的间距为 `100px` ，发生了 `margin` 重叠（塌陷），以最大的为准，如果第一个 `div` 的 `margin` 为 80 的话，两个 `div` 之间的距离还是 100，以最大的为准。
@@ -100,10 +100,10 @@ titleTemplate: CSS
 
 这时候，边距则不会重叠：
 
-<div class="BFC-box">
-  <div class="example">Haha</div>
-  <div class="wrap">
-    <div class="example">Hehe</div>
+<div :class="$style.box">
+  <div :class="$style.example">Haha</div>
+  <div :class="$style.wrap">
+    <div :class="$style.example">Hehe</div>
   </div>
 </div>
 :::
@@ -137,10 +137,10 @@ titleTemplate: CSS
 
 页面显示如下：
 
-<div class="BFC-box">
-  <div class="par">
-    <div class="child"></div>
-    <div class="child"></div>
+<div :class="$style.box">
+  <div :class="$style.par">
+    <div :class="$style.child"></div>
+    <div :class="$style.child"></div>
   </div>
 </div>
 
@@ -154,10 +154,10 @@ titleTemplate: CSS
 
 实现效果如下：
 
-<div class="BFC-box">
-  <div class="par hidden">
-    <div class="child"></div>
-    <div class="child"></div>
+<div :class="$style.box">
+  <div :class="[$style.par, $style.hidden]">
+    <div :class="$style.child"></div>
+    <div :class="$style.child"></div>
   </div>
 </div>
 :::
@@ -195,10 +195,10 @@ titleTemplate: CSS
 
 效果图如下：
 
-<div class="BFC-box">
-  <div class="body">
-    <div class="aside"></div>
-    <div class="main"></div>
+<div :class="$style.box">
+  <div :class="$style.body">
+    <div :class="$style.aside"></div>
+    <div :class="$style.main"></div>
   </div>
 </div>
 
@@ -220,10 +220,10 @@ titleTemplate: CSS
 
 效果如下：
 
-<div class="BFC-box">
-  <div class="body">
-    <div class="aside"></div>
-    <div class="main hidden"></div>
+<div :class="$style.box">
+  <div :class="$style.body">
+    <div :class="$style.aside"></div>
+    <div :class="[$style.main, $style.hidden]"></div>
   </div>
 </div>
 
@@ -239,8 +239,8 @@ titleTemplate: CSS
 - [BFC 原理剖析](https://github.com/zuopf769/notebook/blob/master/fe/BFC%E5%8E%9F%E7%90%86%E5%89%96%E6%9E%90/README.md)
 - https://vue3js.cn/interview/css/BFC.html
 
-<style lang="scss">
-.BFC-box {
+<style module lang="scss">
+.box {
   background: white;
   overflow: hidden;
   border-radius: 10px;

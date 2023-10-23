@@ -40,10 +40,8 @@ titleTemplate: CSS
 </style>
 ```
 
-<div class="box_model">
-  <div class="box content-box">
-    Box Model
-  </div>
+<div :class="[$style.box, $style['content-box']]">
+  Box Model
 </div>
 
 当我们在浏览器查看元素时，却发现元素的大小变成了 `240px`
@@ -111,10 +109,8 @@ box-sizing： content-box | border-box | inherit
 </style>
 ```
 
-<div class="box_model">
-  <div class="box border-box">
-    Box Model
-  </div>
+<div :class="[$style.box, $style['border-box']]">
+  Box Model
 </div>
 
 ## 参考
@@ -123,21 +119,19 @@ box-sizing： content-box | border-box | inherit
 - [box-sizing](https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing)
 - https://vue3js.cn/interview/css/box.html
 
-<style lang="scss">
-.box_model {
-  .box {
-    width: 200px;
-    height: 100px;
-    padding:20px;
-    background: yellow;
-  }
+<style module lang="scss">
+.box {
+  width: 200px;
+  height: 100px;
+  padding:20px;
+  background: yellow;
+}
 
-  .content-box{
-    box-sizing: content-box;
-  }
+.content-box{
+  box-sizing: content-box;
+}
 
-  .border-box {
-    box-sizing: border-box;
-  }
+.border-box {
+  box-sizing: border-box;
 }
 </style>
