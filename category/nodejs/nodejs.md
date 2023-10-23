@@ -1,6 +1,7 @@
 ---
 outline: deep
 title: Node.js
+titleTemplate: Node.js
 ---
 
 # 对 `Node.js` 的理解？优缺点？应用场景？

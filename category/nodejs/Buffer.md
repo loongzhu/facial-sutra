@@ -1,6 +1,7 @@
 ---
 outline: deep
-title: Node.js Buffer
+title: Buffer
+titleTemplate: Node.js
 ---
 
 # 对 `Buffer` 的理解？应用场景？

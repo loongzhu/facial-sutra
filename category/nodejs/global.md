@@ -1,6 +1,7 @@
 ---
 outline: deep
-title: Node.js global
+title: global
+titleTemplate: Node.js
 ---
 
 # `Node.js` 有哪些全局对象？

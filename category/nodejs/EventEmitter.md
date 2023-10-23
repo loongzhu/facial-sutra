@@ -1,6 +1,7 @@
 ---
 outline: deep
-title: Node.js EventEmitter
+title: EventEmitter
+titleTemplate: Node.js
 ---
 
 # 对 `Node.js` 中的 `EventEmitter` 的理解？如何实现一个 `EventEmitter` ？

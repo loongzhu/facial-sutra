@@ -1,6 +1,7 @@
 ---
 outline: deep
-title: Node.js Event Loop
+title: Event Loop
+titleTemplate: Node.js
 ---
 
 # 对 `Node.js` 中的事件循环机制理解？

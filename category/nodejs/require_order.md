@@ -1,6 +1,7 @@
 ---
 outline: deep
-title: Node.js require_order
+title: require order
+titleTemplate: Node.js
 ---
 
 # `Node.js` 文件查找的优先级以及 `Require` 方法的查找策略？

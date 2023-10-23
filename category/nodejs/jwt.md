@@ -1,6 +1,7 @@
 ---
 outline: deep
 title: JSON Web Token
+titleTemplate: Node.js
 ---
 
 # 如何实现 `JWT` 鉴权机制

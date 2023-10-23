@@ -1,6 +1,7 @@
 ---
 outline: deep
-title: Performance optimization
+title: performance optimization
+titleTemplate: Node.js
 ---
 
 # `Node` 性能如何进行监控以及优化？

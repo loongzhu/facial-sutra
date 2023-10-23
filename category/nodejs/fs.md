@@ -1,6 +1,7 @@
 ---
 outline: deep
-title: Node.js fs
+title: fs
+titleTemplate: Node.js
 ---
 
 # 对 `Node.js` 中的 `fs` 模块的理解？有哪些常用方法？
