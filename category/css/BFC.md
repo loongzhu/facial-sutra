@@ -63,7 +63,7 @@ titleTemplate: CSS
 </style>
 
 <body>
-  <div class="box">
+  <div class="BFC-box">
     <div class="example">Haha</div>
     <div class="example">Hehe</div>
   </div>
@@ -72,7 +72,7 @@ titleTemplate: CSS
 
 页面显示如下：
 
-<div class="box">
+<div class="BFC-box">
   <div class="example">Haha</div>
   <div class="example">Hehe</div>
 </div>
@@ -100,7 +100,7 @@ titleTemplate: CSS
 
 这时候，边距则不会重叠：
 
-<div class="box">
+<div class="BFC-box">
   <div class="example">Haha</div>
   <div class="wrap">
     <div class="example">Hehe</div>
@@ -137,7 +137,7 @@ titleTemplate: CSS
 
 页面显示如下：
 
-<div class="box">
+<div class="BFC-box">
   <div class="par">
     <div class="child"></div>
     <div class="child"></div>
@@ -154,7 +154,7 @@ titleTemplate: CSS
 
 实现效果如下：
 
-<div class="box">
+<div class="BFC-box">
   <div class="par hidden">
     <div class="child"></div>
     <div class="child"></div>
@@ -195,7 +195,7 @@ titleTemplate: CSS
 
 效果图如下：
 
-<div class="box">
+<div class="BFC-box">
   <div class="body">
     <div class="aside"></div>
     <div class="main"></div>
@@ -220,7 +220,7 @@ titleTemplate: CSS
 
 效果如下：
 
-<div class="box">
+<div class="BFC-box">
   <div class="body">
     <div class="aside"></div>
     <div class="main hidden"></div>
@@ -240,7 +240,7 @@ titleTemplate: CSS
 - https://vue3js.cn/interview/css/BFC.html
 
 <style lang="scss">
-.box{
+.BFC-box {
   background: white;
   overflow: hidden;
   border-radius: 10px;
