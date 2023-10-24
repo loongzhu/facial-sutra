@@ -133,5 +133,7 @@ function cssSidebar(): DefaultTheme.SidebarItem[] {
     { text: "Box model", link: "box_model" },
     { text: "BFC", link: "BFC" },
     { text: "Responsive Design", link: "responsive_design" },
+    { text: "Center element", link: "center" },
+    { text: "multi-column layout", link: "column_layout" },
   ];
 }
