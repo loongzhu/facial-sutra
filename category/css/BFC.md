@@ -247,7 +247,7 @@ titleTemplate: CSS
   padding: 10px;
 
   .wrap {
-    overflow: hidden; // 新的BFC
+    overflow: hidden; /* 新的BFC */
   }
 
   .example {

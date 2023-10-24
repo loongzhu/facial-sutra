@@ -132,5 +132,6 @@ function cssSidebar(): DefaultTheme.SidebarItem[] {
   return [
     { text: "Box model", link: "box_model" },
     { text: "BFC", link: "BFC" },
+    { text: "Responsive Design", link: "responsive_design" },
   ];
 }
