@@ -6,6 +6,7 @@ titleTemplate: CSS
 
 # BFC ( Block Formatting Context )
 
+<br>
 <h1>块级格式化上下文</h1>
 
 ![BFC](./images/BFC.png)
