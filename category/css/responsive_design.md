@@ -7,7 +7,7 @@ titleTemplate: CSS
 # Responsive design
 
 <br>
-<h1>什么是响应式设计（）？响应式设计的基本原理是什么？如何做？</h1>
+<h1>什么是响应式设计？响应式设计的基本原理是什么？如何做？</h1>
 
 ![Responsive design](./images/responsive_design.png)
 

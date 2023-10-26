@@ -72,6 +72,7 @@ function sidebarContent(): DefaultTheme.SidebarItem[] {
         { text: "Html", link: "Html" },
         { text: "JavaScript", link: "JavaScript" },
         { text: "CSS", items: cssSidebar() },
+        { text: "Vue", items: vueSidebar() },
         { text: "Node.js", items: nodejsSidebar() },
         { text: "Git", link: "Git" },
         { text: "test", link: "test" },
@@ -132,4 +133,8 @@ function cssSidebar(): DefaultTheme.SidebarItem[] {
     { text: "Center element", link: "center" },
     { text: "multi-column layout", link: "column_layout" },
   ];
+}
+
+function vueSidebar(): DefaultTheme.SidebarItem[] {
+  return [{ text: "Vuex vs Pinia", link: "vuex_vs_pinia" }];
 }
