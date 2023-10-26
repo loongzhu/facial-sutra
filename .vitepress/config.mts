@@ -29,6 +29,10 @@ export default defineConfig({
     ],
   ],
 
+  rewrites: {
+    "category/([^/]+)/:page": "category/:page",
+  },
+
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     logo: { src: "/facialsutra-logo.svg", width: 24, height: 24 },
@@ -67,16 +71,8 @@ function sidebarContent(): DefaultTheme.SidebarItem[] {
         { text: "CSS", link: "CSS" },
         { text: "Html", link: "Html" },
         { text: "JavaScript", link: "JavaScript" },
-        {
-          text: "CSS",
-          base: "/category/css/",
-          items: cssSidebar(),
-        },
-        {
-          text: "Node.js",
-          base: "/category/nodejs/",
-          items: nodejsSidebar(),
-        },
+        { text: "CSS", items: cssSidebar() },
+        { text: "Node.js", items: nodejsSidebar() },
         { text: "Git", link: "Git" },
         { text: "test", link: "test" },
         {
