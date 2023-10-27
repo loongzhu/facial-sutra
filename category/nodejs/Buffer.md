@@ -6,7 +6,7 @@ titleTemplate: Node.js
 
 # 对 `Buffer` 的理解？应用场景？
 
-![buffer-about](https://github.com/MrZhuA00/image-repo/blob/main/facial-sutra/nodejs/buffer-about.png?raw=true)
+![buffer-about](./images/buffer-about.png?raw=true)
 
 ## 1. `Buffer` 是什么？
 
@@ -30,7 +30,7 @@ const buffer = Buffer.from("hello world");
 
 其存储过程如下图所示：
 
-![buffer-graph](https://github.com/MrZhuA00/image-repo/blob/main/facial-sutra/nodejs/buffer-graph.png?raw=true)
+![buffer-graph](./images/buffer-graph.png?raw=true)
 
 ## 2. `Buffer` 的使用方法
 

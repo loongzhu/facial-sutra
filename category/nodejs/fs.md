@@ -6,7 +6,7 @@ titleTemplate: Node.js
 
 # 对 `Node.js` 中的 `fs` 模块的理解？有哪些常用方法？
 
-![fs-about](https://github.com/MrZhuA00/image-repo/blob/main/facial-sutra/nodejs/fs-about.png?raw=true)
+![fs-about](./images/fs-about.png?raw=true)
 
 ## 1. `fs` 模块是什么
 
@@ -32,7 +32,7 @@ const fs = require("fs");
 
 ### 2.1. 权限位 `mode`
 
-![fs-mode](https://github.com/MrZhuA00/image-repo/blob/main/facial-sutra/nodejs/fa-mode.png?raw=true)
+![fs-mode](./images/fa-mode.png?raw=true)
 
 针对文件所有者、文件所属组、其他用户进行权限分配，分别对应 `r` `w` `x` 三个权限，即：
 

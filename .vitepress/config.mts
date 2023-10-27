@@ -22,8 +22,8 @@ export default defineConfig({
       "link",
       {
         rel: "icon",
-        // href: "https://raw.githubusercontent.com/MrZhuA00/image-repo/main/facial-sutra/facial-sutra_32.ico",
-        // href: https://raw.githubusercontent.com/MrZhuA00/image-repo/d7801a8f660736e0cd6608daf85b41260599db4c/facial-sutra/facialsutra-logo.svg
+        // href: "https://raw.githubusercontent.com/Jokerzhzh/image-repo/main/facial-sutra/facial-sutra_32.ico",
+        // href: https://raw.githubusercontent.com/Jokerzhzh/image-repo/d7801a8f660736e0cd6608daf85b41260599db4c/facial-sutra/facialsutra-logo.svg
         href: "/facial-sutra/facialsutra-logo.svg",
       },
     ],
@@ -51,12 +51,12 @@ export default defineConfig({
     },
 
     editLink: {
-      pattern: "https://github.com/MrZhuA00/facial-sutra/blob/main/:path",
+      pattern: "https://github.com/Jokerzhzh/facial-sutra/blob/main/:path",
       text: "Edit this page on GitHub",
     },
 
     socialLinks: [
-      { icon: "github", link: "https://github.com/MrZhuA00/facial-sutra" },
+      { icon: "github", link: "https://github.com/Jokerzhzh/facial-sutra" },
     ],
   },
 });
