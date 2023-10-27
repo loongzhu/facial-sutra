@@ -132,6 +132,7 @@ function cssSidebar(): DefaultTheme.SidebarItem[] {
     { text: "CSS selectors", link: "css_selectors" },
     { text: "Responsive Design", link: "responsive_design" },
     { text: "Center element", link: "center" },
+    { text: "Hidden elememt", link: "hidden_element" },
     { text: "multi-column layout", link: "column_layout" },
   ];
 }
