@@ -6,7 +6,7 @@ titleTemplate: Node.js
 
 # 对 `Node.js` 中的事件循环机制理解？
 
-![event_loop-about](./images/event_loop-about.png?raw=true)
+![event_loop-about](./images/event_loop-about.png)
 
 ## 1. 事件循环机制 是什么
 
@@ -14,7 +14,7 @@ titleTemplate: Node.js
 
 而在 `Node.js` 中， **_事件循环_** 是基于 [`libuv`](https://libuv.org/) 实现， `libuv` 是一个多平台的专注于异步 `I/O` 的库，如图：
 
-![event_loop-libuv](./images/event_loop-libuv.png?raw=true)
+![event_loop-libuv](./images/event_loop-libuv.png)
 
 上图 `EVENT_QUEUE` 给人看起来只有一个队列，但是实际上， `EventLoop` 存在 6 个阶段，每个阶段都有对应的一个先进先出的回调队列
 
@@ -22,7 +22,7 @@ titleTemplate: Node.js
 
 事件循环分成了 6 个阶段，对应如下：
 
-![event_loop-stages](./images/event_loop-stages.png?raw=true)
+![event_loop-stages](./images/event_loop-stages.png)
 
 - `timers` ：定时器检测阶段
   这个阶段执行 `timer` 的回调，即 `setTimeout` 、 `setInterval` 的回调
@@ -48,7 +48,7 @@ titleTemplate: Node.js
 
 流程图如下所示：
 
-![event_loop-process](./images/event_loop-process.png?raw=true)
+![event_loop-process](./images/event_loop-process.png)
 
 在 `Node` 中，同样存在宏任务和微任务，与浏览器中的事件循环相似：
 
