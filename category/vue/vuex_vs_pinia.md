@@ -74,5 +74,7 @@ Pinia 和 Vuex 在 API 风格、TypeScript 支持、插件生态系统和性能�
 ## references
 
 - [Vuex](https://vuex.vuejs.org/)
+- [vuex-persistedstate](https://github.com/robinvdvleuten/vuex-persistedstate)
 - [Pinia](https://pinia.esm.dev/)
+- [pinia-plugin-persistedstate](https://github.com/prazdevs/pinia-plugin-persistedstate)
 - [Redux](https://redux.js.org/)
