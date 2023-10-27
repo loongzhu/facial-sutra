@@ -134,6 +134,7 @@ function cssSidebar(): DefaultTheme.SidebarItem[] {
     { text: "Center element", link: "center" },
     { text: "Hidden elememt", link: "hidden_element" },
     { text: "multi-column layout", link: "column_layout" },
+    { text: "Text overflew style", link: "overflow_style" },
   ];
 }
 
