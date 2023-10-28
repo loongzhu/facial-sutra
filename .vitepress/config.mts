@@ -72,6 +72,7 @@ function sidebarContent(): DefaultTheme.SidebarItem[] {
         { text: "Html", link: "Html" },
         { text: "JavaScript", link: "JavaScript" },
         { text: "CSS", items: cssSidebar() },
+        { text: "ES6", items: es6Sidebar() },
         { text: "Vue", items: vueSidebar() },
         { text: "Node.js", items: nodejsSidebar() },
         { text: "Git", link: "Git" },
@@ -135,6 +136,13 @@ function cssSidebar(): DefaultTheme.SidebarItem[] {
     { text: "Hidden elememt", link: "hidden_element" },
     { text: "multi-column layout", link: "column_layout" },
     { text: "Text overflew style", link: "overflow_style" },
+  ];
+}
+
+function es6Sidebar(): DefaultTheme.SidebarItem[] {
+  return [
+    { text: "Versions", link: "versions" },
+    { text: "Promise", link: "promise" },
   ];
 }
 
