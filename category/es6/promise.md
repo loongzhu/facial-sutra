@@ -483,15 +483,6 @@ Promise.try(f)
   ```
 
 <script setup lang="ts">
-const someAsyncThing = () => {
-  return new Promise(function (resolve, reject) {
-    // 下面一行会报错，因为x没有声明
-    resolve(x + 2);
-  });
-};
-
-someAsyncThing();
-
 const p1 = new Promise((resolve, reject) => {
   resolve("hello");
 })
