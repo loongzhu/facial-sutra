@@ -490,7 +490,7 @@ const someAsyncThing = () => {
       resolve(x + 2);
     } catch (e) {
       resolve(e);
-      console.log(e)
+      console.error(e)
     }
   });
 };
@@ -516,11 +516,11 @@ const p3 = new Promise((resolve, reject) => {
 
 Promise.all([p1, p2])
   .then((result) => console.log(result))
-  .catch((e) => console.log(e));
+  .catch((e) => console.error(e));
 
 Promise.all([p1, p3])
   .then((result) => console.log(result))
-  .catch((e) => console.log(e));
+  .catch((e) => console.error(e));
 
 const promises = [
   new Promise((resolve, reject) => {
