@@ -142,6 +142,7 @@ function cssSidebar(): DefaultTheme.SidebarItem[] {
 function es6Sidebar(): DefaultTheme.SidebarItem[] {
   return [
     { text: "Versions", link: "versions" },
+    { text: "Set and Map", link: "set_map" },
     { text: "Promise", link: "promise" },
   ];
 }
