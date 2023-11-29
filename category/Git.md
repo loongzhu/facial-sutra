@@ -21,6 +21,7 @@ This page is common commands and submission specifications about Git.
 - `git log` 查看提交日志
 - `git reflog` 查看所有操作日志
 - `git branch` 查看分支
+- `git branch -m <oldname> <newname>` 重命名分支
 - `git checkout -b dev` 创建并切换到 dev 分支
 - `git checkout master` 切换到 master 分支
 - `git merge dev` 合并 dev 分支到当前分支
