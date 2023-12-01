@@ -17,15 +17,15 @@
     "docs:preview": "vitepress preview"
   },
   "dependencies": {
-    "crypto-js": "^4.1.1",
+    "crypto-js": "^4.2.0",
     "markdown-it": "^13.0.2",
     "markdown-it-mathjax3": "^4.3.2",
     "uuid": "^9.0.1",
-    "vue": "^3.3.4"
+    "vue": "^3.3.9"
   },
   "devDependencies": {
-    "sass": "^1.68.0",
-    "vitepress": "1.0.0-rc.20"
+    "sass": "^1.69.5",
+    "vitepress": "1.0.0-rc.31"
   },
   "author": "zhuzhenquan",
   "license": "MIT",
