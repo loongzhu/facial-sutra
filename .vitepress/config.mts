@@ -1,3 +1,4 @@
+import { URL, fileURLToPath } from "url";
 import { defineConfig, type DefaultTheme } from "vitepress";
 
 // https://vitepress.dev/reference/site-config
@@ -58,6 +59,14 @@ export default defineConfig({
     socialLinks: [
       { icon: "github", link: "https://github.com/Jokerzhzh/facial-sutra" },
     ],
+  },
+
+  vite: {
+    resolve: {
+      alias: {
+        "@components": fileURLToPath(new URL("../components", import.meta.url)),
+      },
+    },
   },
 });
 

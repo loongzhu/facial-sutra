@@ -1,0 +1,16 @@
+$darkBorderColor: #fffff5db;
+$space: 20px;
+$borderWidth: 3px;
+$borderRadius: 10px;
+
+@mixin default-box($color: #000) {
+  font-weight: bold;
+  border-width: $borderWidth;
+  border-style: solid;
+  border-radius: $borderRadius;
+  border-color: $color;
+  text-align: left;
+  padding: 10px 15px;
+  display: grid;
+  place-items: center;
+}

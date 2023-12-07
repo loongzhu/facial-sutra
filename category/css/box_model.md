@@ -6,7 +6,9 @@ titleTemplate: CSS
 
 # Box Model (盒子模型)
 
-![Box model](./images/box_model.png)
+<!-- ![Box model](./images/box_model.png) -->
+
+<Title title="盒子模型" :about="['是什么','标准模型','怪异模型']">API Examples</Title>
 
 ## 是什么
 
@@ -118,6 +120,10 @@ box-sizing： content-box | border-box | inherit
 - [CSS Box Model](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Introduction_to_the_CSS_box_model)
 - [box-sizing](https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing)
 - https://vue3js.cn/interview/css/box.html
+
+<script setup>
+import { Title } from '@components'
+</script>
 
 <style module lang="scss">
 .box {

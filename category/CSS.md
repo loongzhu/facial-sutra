@@ -1,12 +1,16 @@
 ---
 outline: deep
+title: About CSS
+titleTemplate: CSS
 ---
 
 # About CSS
 
 This page is some interview questions about CSS.
 
-## 1. `Less` 和 `Sass` 的区别
+<Title>API Examples</Title>
+
+## `Less` 和 `Sass` 的区别
 
 `Less` 和 `Sass` 都是 `CSS` 预处理器，都提供了一种更高级的方式来编写 `CSS` ，包括变量、混合、嵌套规则等。然而，它们之间存在一些关键的区别：
 
@@ -34,3 +38,7 @@ This page is some interview questions about CSS.
 
 6. 兼容性：
    - `Less` 兼容所有主流浏览器，包括 `IE 6` ，而 `Sass` 只支持 `IE 9+` 。 -->
+
+<script setup>
+import {Title} from '@components'
+</script>
