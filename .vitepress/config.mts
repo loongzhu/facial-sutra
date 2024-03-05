@@ -84,6 +84,7 @@ function sidebarContent(): DefaultTheme.SidebarItem[] {
         { text: "ES6", items: es6Sidebar() },
         { text: "Vue", items: vueSidebar() },
         { text: "Node.js", items: nodejsSidebar() },
+        { text: "Java", items: javaSidebar() },
         { text: "Git", link: "Git" },
         { text: "test", link: "test" },
         {
@@ -133,6 +134,10 @@ function nodejsSidebar(): DefaultTheme.SidebarItem[] {
     { text: "JSON Web Token", link: "jwt" },
     { text: "Performance optimization", link: "performance" },
   ];
+}
+
+function javaSidebar(): DefaultTheme.SidebarItem[] {
+  return [{ text: "Installation", link: "installation" }];
 }
 
 function cssSidebar(): DefaultTheme.SidebarItem[] {
