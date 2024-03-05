@@ -18,14 +18,14 @@
   },
   "dependencies": {
     "crypto-js": "^4.2.0",
-    "markdown-it": "^13.0.2",
+    "markdown-it": "^14.0.0",
     "markdown-it-mathjax3": "^4.3.2",
     "uuid": "^9.0.1",
-    "vue": "^3.3.9"
+    "vue": "^3.4.21"
   },
   "devDependencies": {
-    "sass": "^1.69.5",
-    "vitepress": "1.0.0-rc.31"
+    "sass": "^1.71.1",
+    "vitepress": "1.0.0-rc.44"
   },
   "author": "zhuzhenquan",
   "license": "MIT",
