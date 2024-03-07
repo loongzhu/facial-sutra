@@ -43,3 +43,37 @@
 body {
   font-family: "lxgw wenkai lite";
 }
+
+html {
+  --sb-track-color: #f1f1f1;
+  --sb-thumb-color: #a8a8a8;
+  --sb-size: 6px;
+}
+
+.dark {
+  --sb-track-color: #424242;
+  --sb-thumb-color: #7b7b7b;
+}
+
+::-webkit-scrollbar {
+  width: var(--sb-size);
+  height: var(--sb-size);
+}
+
+::-webkit-scrollbar-track {
+  background: var(--sb-track-color);
+  border-radius: var(--sb-size);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--sb-thumb-color);
+  border-radius: var(--sb-size);
+}
+
+::-webkit-scrollbar-corner {
+  background: var(--sb-track-color);
+}
+
+@supports not selector(::-webkit-scrollbar) {
+  scrollbar-color: var(--sb-thumb-color) var(--sb-track-color);
+}
