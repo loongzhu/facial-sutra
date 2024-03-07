@@ -63,9 +63,18 @@ onMounted(() => {
 
     const path = document.createElementNS("http://www.w3.org/2000/svg", "path");
 
+    const C = generateC(
+      startLeft,
+      startTop + (index + 1) * space + 3,
+      elementLeft,
+      top
+    );
+
     path.setAttribute(
       "d",
-      `M ${startLeft} ${startTop + (index + 1) * space} ${elementLeft} ${top}`
+      `M ${startLeft} ${
+        startTop + (index + 1) * space
+      } ${C} ${elementLeft} ${top}`
     );
     path.setAttribute("stroke", color);
     path.setAttribute("stroke-width", "3");
@@ -73,6 +82,21 @@ onMounted(() => {
 
     svg.appendChild(path);
   });
+
+  function generateC(x: number, y: number, left: number, top: number): string {
+    let _y: number;
+
+    if (y > top) {
+      _y = y - (y - top);
+    } else if (y < top) {
+      _y = y + (top - y);
+    } else {
+      _y = y;
+    }
+
+    const C = `C ${x} ${_y} ${left} ${top}`;
+    return `C ${x} ${_y} ${left - 66} ${top}`;
+  }
 });
 </script>
 
