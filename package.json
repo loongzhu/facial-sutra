@@ -25,16 +25,17 @@
   },
   "devDependencies": {
     "sass": "^1.71.1",
+    "typescript": "^5.4.2",
     "vitepress": "1.0.0-rc.44"
   },
   "author": "zhuzhenquan",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Jokerzhzh/facial-sutra.git"
+    "url": "git+https://github.com/loongzhu/facial-sutra.git"
   },
   "bugs": {
-    "url": "https://github.com/Jokerzhzh/facial-sutra/issues"
+    "url": "https://github.com/loongzhu/facial-sutra/issues"
   },
-  "homepage": "https://github.com/Jokerzhzh/facial-sutra#readme"
+  "homepage": "https://github.com/loongzhu/facial-sutra#readme"
 }
