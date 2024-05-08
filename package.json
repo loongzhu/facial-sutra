@@ -21,12 +21,12 @@
     "markdown-it": "^14.1.0",
     "markdown-it-mathjax3": "^4.3.2",
     "uuid": "^9.0.1",
-    "vue": "^3.4.21"
+    "vue": "^3.4.27"
   },
   "devDependencies": {
-    "sass": "^1.72.0",
-    "typescript": "^5.4.3",
-    "vitepress": "1.0.0-rc.44"
+    "sass": "^1.77.0",
+    "typescript": "^5.4.5",
+    "vitepress": "1.1.4"
   },
   "author": "zhuzhenquan",
   "license": "MIT",
