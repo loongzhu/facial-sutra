@@ -25,7 +25,7 @@ export default defineConfig({
         rel: "icon",
         // href: "https://raw.githubusercontent.com/Jokerzhzh/image-repo/main/facial-sutra/facial-sutra_32.ico",
         // href: https://raw.githubusercontent.com/Jokerzhzh/image-repo/d7801a8f660736e0cd6608daf85b41260599db4c/facial-sutra/facialsutra-logo.svg
-        href: "/facial-sutra/facialsutra-logo.svg",
+        href: "/facial-sutra/favicon.ico",
       },
     ],
   ],
@@ -36,7 +36,7 @@ export default defineConfig({
 
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    logo: { src: "/facialsutra-logo.svg", width: 24, height: 24 },
+    logo: { src: "/favicon.ico", width: 24, height: 24 },
 
     nav: [
       { text: "Home", link: "/" },

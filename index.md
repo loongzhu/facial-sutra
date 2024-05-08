@@ -14,7 +14,7 @@ hero:
       text: API Examples
       link: /category/api-examples
   image:
-    src: /facialsutra-logo.svg
+    src: /logo.png
     alt: FacialSutra
 
 features:
@@ -42,7 +42,7 @@ features:
   --vp-home-hero-name-color: transparent;
   --vp-home-hero-name-background: -webkit-linear-gradient(120deg, #bd34fe 30%, #41d1ff);
 
-  --vp-home-hero-image-background-image: linear-gradient(-45deg, #4cfe34 50%, #47c5ff 50%);
+  --vp-home-hero-image-background-image: linear-gradient(-30deg, #bd34fe 30%, #41d1ff);
   --vp-home-hero-image-filter: blur(40px);
 }
 
