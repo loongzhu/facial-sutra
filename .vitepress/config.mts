@@ -85,7 +85,7 @@ function sidebarContent(): DefaultTheme.SidebarItem[] {
         { text: "Vue", items: vueSidebar() },
         { text: "Node.js", items: nodejsSidebar() },
         { text: "Java", items: javaSidebar() },
-        { text: "Git", link: "Git" },
+        { text: "Git", items: gitSidebar() },
         { text: "test", link: "test" },
         {
           text: "category1",
@@ -163,4 +163,11 @@ function es6Sidebar(): DefaultTheme.SidebarItem[] {
 
 function vueSidebar(): DefaultTheme.SidebarItem[] {
   return [{ text: "Vuex vs Pinia", link: "vuex_vs_pinia" }];
+}
+
+function gitSidebar(): DefaultTheme.SidebarItem[] {
+  return [
+    { text: "Command", link: "common-command" },
+    { text: "First Commit", link: "first-commit" },
+  ];
 }
